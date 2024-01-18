@@ -1,0 +1,93 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+button{
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+    background-color: brown;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 4px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: brown;
+}
+.title{
+    font-size: 32px;
+    color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.main {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .scoreboard{
+    margin-bottom: 15px;
+  }
+  .score-info{
+    font-size: 32px;
+  }
+  .score-message {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .scores-container{
+    display: flex;
+     align-items: center;
+    justify-content: space-between; 
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .score-box{
+    width: 170px;
+  }
+  .score{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .btn-square{
+    width: 160px;
+    height: 160px;
+  }
+  .sign {
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+  .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+  }
+/*MODALS*/
